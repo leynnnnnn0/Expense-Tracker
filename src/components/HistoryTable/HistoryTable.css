@@ -1,0 +1,20 @@
+.history-table {
+    height: 300px;
+    width: 400px;
+    background: var(--secondary-color);
+    padding: 1rem;
+}
+
+table {
+    border: 1px solid white;
+    text-align: center;
+}
+
+th {
+    width: 150px;
+    border: 1px solid white;
+}
+
+td {
+    border: 1px solid white;
+}

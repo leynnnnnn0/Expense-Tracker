@@ -1,0 +1,82 @@
+.money-info {
+    background: var(--secondary-color);
+    width: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-money {
+    width: 200px;
+}
+
+.about-money p {
+    color: grey;
+    font-size: 0.7rem;
+}
+
+.about-money h1 {
+    font-size: 2rem;
+}
+
+.about-moneys {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.manage-acounts {
+    display: flex;
+    align-items: center;
+}
+
+.light-designs {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.one {
+    width: 200px;
+    height: 5px;
+    background: violet;
+    box-shadow: 2px 2px 20px violet;
+    flex-grow: 1;
+}
+
+
+.two {
+    width: 200px;
+    height: 5px;
+    background: yellow;
+    box-shadow: 2px 2px 20px yellow;
+}
+
+.three {
+    width: 200px;
+    height: 5px;
+    background: blue;
+    box-shadow: 2px 2px 20px blue;
+}
+
+.four {
+    width: 200px;
+    height: 5px;
+    background: rgb(111, 255, 0);
+    box-shadow: 2px 2px 20px blue;
+}
+
+.five {
+    width: 200px;
+    height: 5px;
+    background: rgb(199, 21, 21);
+    box-shadow: 2px 2px 20px blue;
+}
+
+.about-money button {
+    padding: 0.2rem  1rem;
+    background: none;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 0.5rem;
+    font-size: 0.7rem;
+}

@@ -1,0 +1,10 @@
+.chart {
+    width: 560px;
+    height: 450px;
+    background: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}

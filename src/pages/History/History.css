@@ -1,0 +1,4 @@
+.history {
+    background: var(--primary-color);
+    display: flex;
+}

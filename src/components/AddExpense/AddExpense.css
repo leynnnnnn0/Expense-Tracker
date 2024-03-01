@@ -1,0 +1,49 @@
+.add-expense {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.expense-form {
+    background: var(--primary-color);
+    width: 300px;
+}
+
+.expense-input {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 0.5rem;
+}
+
+.expense-input input {
+    color: black;
+    height: 2rem;
+    border: none;
+    text-indent: 0.5rem;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.expense-input p {
+    margin-left: 0.3rem;
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+.add-expense-button {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.add-expense-button button {
+    background: none;
+    border: 1px solid white;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    border: 1px solid white;
+}
